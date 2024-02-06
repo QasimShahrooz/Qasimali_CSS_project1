@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(167, 158, 158);
+}
+
+.navbar{
+    background-color: #5151f5;
+    color: white;
+    border-radius: 10px;
+    
+}
+.navbar ul{
+margin: 0px 0px;
+    overflow: auto;
+    /* line-height: 36px; */
+}
+.navbar li{
+    list-style-type: none;
+    float: left;
+    margin: 10px 20px;
+}
+.navbar li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 3px 3px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.navbar li a:hover{
+    color: black;
+    /* background-color: yellow; */
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+#search{
+    padding: 14px 60px;
+    float: right;
+
+}
+#search input{
+    border: none;
+    border-radius: 6px;
+    padding: 3px 11px;
+    outline: none;
+}
+#logo{
+    float: left;
+    padding: 13px 0px;
+    margin-right: 115px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.services{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.ser{
+    color: red;
+    font-family: 'Lucida Sans';
+}
+/* this is product node  */
+
+#bgdiv{
+    /* background-color: darkgreen; */
+    background-color: rgb(167, 158, 158);
+    padding: 10px;
+}
+.product{
+    font-size: 30px;
+    color: rgb(230, 114, 5);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+}
+.maindiv{
+margin-top: 50px;
+height: 400px;
+width: 100%;
+/* border: 1px solid red; */
+/* background-color: silver; */
+display: flex;
+justify-content: space-around;
+}
+.child1{
+height: 400px;
+width: 30%;
+/* border: 1px solid black; */
+/* display: flex; */
+/* align-items: end; */
+}
+.child1 img{
+    height: 330px;
+    width: 100%;
+    /* margin-bottom: -5px; */
+    opacity: 0.5;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.child1 img:hover{
+    opacity: 1;
+    margin-left:5px ;
+    margin-top:-5px ;
+    transition: 0.5s;
+}
+.info{
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: yellow;
+    color: red;
+    /* margin-top: -5px; */
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.info:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+#footer{
+    height: 50px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+}

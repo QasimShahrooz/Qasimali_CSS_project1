@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(167, 158, 158);
+}
+
+.navbar{
+    background-color: #5151f5;
+    color: white;
+    border-radius: 10px;
+    
+}
+.navbar ul{
+margin: 0px 0px;
+    overflow: auto;
+    /* line-height: 36px; */
+}
+.navbar li{
+    list-style-type: none;
+    float: left;
+    margin: 10px 20px;
+}
+.navbar li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 3px 3px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.navbar li a:hover{
+    color: black;
+    /* background-color: yellow; */
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+#search{
+    padding: 14px 60px;
+    float: right;
+
+}
+#search input{
+    border: none;
+    border-radius: 6px;
+    padding: 3px 11px;
+    outline: none;
+}
+#logo{
+    float: left;
+    padding: 13px 0px;
+    margin-right: 115px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.services{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.ser{
+    color: red;
+    font-family: 'Lucida Sans';
+}
+/* contact us node  */
+.container{
+    height: auto;
+    width: 60%;
+    background-color: rgb(134, 215, 235);
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 10px;
+}
+#intouch{
+    font-family: sans-serif;
+    text-align: center;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid rgb(221, 128, 6);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#name{
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin: 10px auto;
+    /* background-color: rgb(226, 231, 235); */
+    background-color: white;
+}
+#msg{
+    margin: 10px auto;
+    width: 81%;
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+button{
+    width: 83%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    /* border: 2px solid blue; */
+    margin: 10px auto;
+}
+#footer{
+    height: 50px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+}

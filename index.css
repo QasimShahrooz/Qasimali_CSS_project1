@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(167, 158, 158);
+}
+
+.navbar{
+    background-color: #5151f5;
+    color: white;
+    border-radius: 10px;
+    
+}
+.navbar ul{
+margin: 0px 0px;
+    overflow: auto;
+    /* line-height: 36px; */
+}
+.navbar li{
+    list-style-type: none;
+    float: left;
+    margin: 10px 20px;
+}
+.navbar li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 3px 3px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.navbar li a:hover{
+    color: black;
+    /* background-color: yellow; */
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+#search{
+    padding: 14px 60px;
+    float: right;
+
+}
+#search input{
+    border: none;
+    border-radius: 6px;
+    padding: 3px 11px;
+    outline: none;
+}
+#logo{
+    float: left;
+    padding: 13px 0px;
+    margin-right: 115px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+/* body of the home page  */
+.heading1{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+/* css cards */
+#cards{
+    margin-top: 30px;
+    height: 440px;
+/* padding: 10px; */
+width: 100%;
+/* border: 1px solid red; */
+}
+#card{
+    height: auto;
+    width: 25%;
+    /* border: 1px solid black; */
+    text-align: center;
+float: left;
+margin-left: 90px;
+}
+#content{
+    /* border: 1px solid red; */
+    padding: 20px 20px;
+    background-color: rgb(249, 249, 249);
+    margin-top: -22px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#imagediv{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: blue;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#imagediv img{
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+#content button{
+    width: 120px;
+    padding: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#icons{
+    height: 40px;
+    width: 70%;
+    /* border: 1px solid black; */
+    margin: 10px auto;
+}
+#icons span{
+    display: inline-block;
+    margin: 5px 10px;
+    font-size: 30px;
+}
+#icons .fa-square-twitter{
+    color:  #1da1f2;
+}
+#icons .fa-square-facebook{
+    color: #1877f2;
+}
+#icons .fa-linkedin{
+    color: #0a66c2;
+}
+#icons .fa-square-pinterest{
+    color:  #bd081c;
+}
+#footer{
+    height: 50px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+/* this is footer area  */
+.css{
+    color: red;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* services  */
